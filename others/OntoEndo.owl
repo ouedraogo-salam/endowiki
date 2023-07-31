@@ -1,0 +1,1980 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_atteint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_atteint">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_atteint_pour"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://aims.fao.org/aos/agrovoc/c_31857628"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_avantage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_avantage">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_avantage_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Avantage_BP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_effet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_effet">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_effet_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://aims.fao.org/aos/agrovoc/c_5082"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_impact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_impact">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_impact_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_niveau_adoption -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_niveau_adoption">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_niveau_adoption_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_976a1ab6"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_objectif -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#a_pour_objectif">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#objectif_atteint_par"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Objectif"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#cible -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#cible">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#vise"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://aims.fao.org/aos/agrovoc/c_50182"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#concerne -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#concerne">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_concerne_par"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_acteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#condition_requise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#condition_requise">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#necessite_condition"/>
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_2594"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#convient_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#convient_a">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#convient_sur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#convient_sur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#convient_sur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#decrit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#decrit">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_decrite_par"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_applique -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_applique">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#s_applique_sur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_utilisation_terre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_atteint_pour -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_atteint_pour">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_31857628"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_avantage_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_avantage_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Avantage_BP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_categorie_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_categorie_de">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_de_categorie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Categorie_BP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_concerne_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_concerne_par">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_acteur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_de_categorie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_de_categorie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Categorie_BP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_de_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_de_type">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_type_de"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_BP"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_decrite_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_decrite_par">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_effet_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_effet_de">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_5082"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_impact_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_impact_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_interesser_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_interesser_par">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#interesse"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_14343"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_localiser -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_localiser">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_localise"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_niveau_adoption_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_niveau_adoption_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_976a1ab6"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_pratique_dans -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_pratique_dans">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_pratique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_representer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_representer">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#represente"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_solutionner_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_solutionner_par">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#solutionne"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Probleme_vise"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_type_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#est_type_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_BP"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#interesse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#interesse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_14343"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#necessite_condition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#necessite_condition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://aims.fao.org/aos/agrovoc/c_2594"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#objectif_atteint_par -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#objectif_atteint_par">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Objectif"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#represente -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#represente">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#s_applique_sur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#s_applique_sur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_utilisation_terre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_localise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_localise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_pratique -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#se_pratique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#solutionne -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#solutionne">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Probleme_vise"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#vise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#vise">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_50182"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Tempmoyann -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Tempmoyann">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#adresse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#adresse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#adresseurl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#adresseurl">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_morale"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#ampsaisonniere -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#ampsaisonniere">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#caracteristiquetypesol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#caracteristiquetypesol">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#conseilspratiques -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#conseilspratiques">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactclimatique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactclimatique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactenv -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactenv">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_24420"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactsocioeco -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionimpactsocioeco">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_547fe3a0"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionprobleme -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#descriptionprobleme">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Probleme_vise"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#dureesaisonmax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#dureesaisonmax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#dureesaisonmin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#dureesaisonmin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#evaporationannmax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#evaporationannmax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#evaporationannmin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#evaporationannmin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#fax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#fax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#humsaisonhumide -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#humsaisonhumide">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#humsaisonseche -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#humsaisonseche">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#image -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#image">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleavantage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleavantage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Avantage_BP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libellecondition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libellecondition">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_2594"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleechelleintervention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleechelleintervention">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_31857628"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleeffet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleeffet">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_5082"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleniveauadoption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleniveauadoption">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_976a1ab6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleobjectif -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelleobjectif">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Objectif"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelletype -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelletype">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_BP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelletypeutilisationterre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#libelletypeutilisationterre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_utilisation_terre"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#mail -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#mail">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nombrejrspluiemax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nombrejrspluiemax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nombrejrspluiemin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nombrejrspluiemin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcategorie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcategorie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Categorie_BP"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcible -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcible">
+        <rdfs:domain rdf:resource="http://aims.fao.org/aos/agrovoc/c_50182"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcommun -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomcommun">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomexploitant -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomexploitant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_14343"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomlocal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomlocal">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nompaysdepratique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nompaysdepratique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nompersonnephysique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nompersonnephysique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_physique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomsecteuractivite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomsecteuractivite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Secteur_activite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomtypeacteur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomtypeacteur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_acteur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomtypesol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomtypesol">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomzoneclimatique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#nomzoneclimatique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#pluviometrieannmax -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#pluviometrieannmax">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#pluviometrieannmin -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#pluviometrieannmin">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#prenompersonnephysique -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#prenompersonnephysique">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_physique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#titreimage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#titreimage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#urlimage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#urlimage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_2594 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_2594">
+        <rdfs:label xml:lang="fr">Condition environnementale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_31857628 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_31857628">
+        <rdfs:label xml:lang="fr">echelle intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_50182 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_50182">
+        <rdfs:label xml:lang="fr">Communaute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_5082 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5082">
+        <rdfs:label xml:lang="fr">effets</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_5091 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_5091">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label xml:lang="fr">ressource naturelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Avantage_BP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Avantage_BP">
+        <rdfs:label xml:lang="fr">Avantage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Categorie_BP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Categorie_BP">
+        <rdfs:label xml:lang="fr">Categorie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label xml:lang="fr">Gestion durable en eau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Image_illustrative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP">
+        <rdfs:label xml:lang="fr">Impact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_climatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_climatique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Objectif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Objectif">
+        <rdfs:label xml:lang="fr">Objectif</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Probleme_vise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Probleme_vise">
+        <rdfs:label xml:lang="fr">Probleme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Secteur_activite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Secteur_activite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_morale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_morale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_physique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Structure_rattachement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_BP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_BP"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_acteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_acteur">
+        <rdfs:label xml:lang="fr">Acteur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_utilisation_terre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Type_utilisation_terre"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique">
+        <rdfs:label xml:lang="fr">Zone climatique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_sahelienne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_sahelienne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudanaise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudanaise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+        <rdfs:comment>Zone_soudanienne</rdfs:comment>
+        <rdfs:label xml:lang="fr">ZOne_soudanienne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudano_sahelienne -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudano_sahelienne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_climatique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol de bas-fond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label xml:lang="fr">Fertilisation des sols</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_14343 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_14343">
+        <rdfs:label xml:lang="fr">Exploitant agricole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1659 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1659">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label>Sol argileux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label>agriculture/culturale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label xml:lang="fr">Agroforesterie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_2409 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_2409">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol de dune</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_24420 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_24420">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP"/>
+        <rdfs:label>Impact_environnement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_268 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_268">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol alcalin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_29655 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_29655"/>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label xml:lang="fr">Foresterie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904">
+        <rdfs:label xml:lang="fr">Pays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_33934 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_33934">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol agricole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3615 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3615">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol de colline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_547fe3a0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_547fe3a0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Impact_BP"/>
+        <rdfs:label>Impact_economique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_568 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_568">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol arabe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156">
+        <rdfs:label xml:lang="fr">Sol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7425 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7425">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol caillouteux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bonne_pratique"/>
+        <rdfs:label>conservation en eau</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_89 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_89">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7156"/>
+        <rdfs:label xml:lang="fr">Sol acide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_976a1ab6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_976a1ab6">
+        <rdfs:label xml:lang="fr">Niveau adoption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Banque_fourragère -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Banque_fourragère">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bukina_Faso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bukina_Faso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bénin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Bénin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Epandage_du_fumier_de_ferme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Epandage_du_fumier_de_ferme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Ethiopie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Ethiopie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_intégrée_de_la_fertilité_des_sols -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_intégrée_de_la_fertilité_des_sols">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Ghana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Ghana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Mali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Mali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Mauritanie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Mauritanie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Niger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Niger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Nigéria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Nigéria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Sénégal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Sénégal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Tchad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Tchad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Togo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Togo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_330904"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#agriculture_de_conservation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#agriculture_de_conservation">
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#agroforesterie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#agroforesterie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#apport_angrais_organiques_mineraux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#apport_angrais_organiques_mineraux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#association_sorgho_niébé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#association_sorgho_niébé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassin_piscicole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassin_piscicole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassin_rétention_eau_pluviale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassin_rétention_eau_pluviale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassins_en_terre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#bassins_en_terre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#brise_lames -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#brise_lames">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#brise_vent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#brise_vent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#buttes_das_les_cassiers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#buttes_das_les_cassiers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <image xml:lang="fr">i</image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#champ-ecole_paysan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#champ-ecole_paysan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#compostage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#compostage">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#construction_impluviums -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#construction_impluviums">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#construction_retenue_eau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#construction_retenue_eau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#couloir_de_transhumance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#couloir_de_transhumance">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_associée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_associée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_en_couloir -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_en_couloir">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_résidus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#culture_résidus">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#défrichement_contrôlé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#défrichement_contrôlé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#feu_précoce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#feu_précoce">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#forêts_communautaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#forêts_communautaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#fumier_animal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#fumier_animal">
+        <rdf:type rdf:resource="http://aims.fao.org/aos/agrovoc/c_5091"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#irrigation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#irrigation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_8315"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#itinéraire_technique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#itinéraire_technique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_cloisonnée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_cloisonnée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_en_courbe_de_niveau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_en_courbe_de_niveau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_à_plat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#labour_à_plat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#large-lit_système_de_sillon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#large-lit_système_de_sillon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#mélange_de_cultures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#mélange_de_cultures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_203"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#paillage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#paillage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_10795"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#rebisement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#rebisement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+        <rdfs:comment>reboisement</rdfs:comment>
+        <rdfs:label>reboisement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#reforestation_revegetation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#reforestation_revegetation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_207"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#régénération_naturelle_assistée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#régénération_naturelle_assistée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#régénération_par_sémi_direct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#régénération_par_sémi_direct">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#surcreusement_des_marres_naturelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#surcreusement_des_marres_naturelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Gestion_ressources_eau"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#tapis_herbacé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#tapis_herbacé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3055"/>
+        <conseilspratiques xml:lang="fr"></conseilspratiques>
+        <description xml:lang="fr"></description>
+        <image xml:lang="fr"></image>
+        <nomcommun xml:lang="fr"></nomcommun>
+        <nomlocal xml:lang="fr"></nomlocal>
+        <titreimage xml:lang="fr"></titreimage>
+        <urlimage xml:lang="fr"></urlimage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_sahelienne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_sahelienne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_sahelienne"/>
+        <Tempmoyann xml:lang="fr"></Tempmoyann>
+        <ampsaisonniere xml:lang="fr"></ampsaisonniere>
+        <dureesaisonmax xml:lang="fr"></dureesaisonmax>
+        <dureesaisonmin xml:lang="fr"></dureesaisonmin>
+        <evaporationannmax xml:lang="fr"></evaporationannmax>
+        <evaporationannmin xml:lang="fr"></evaporationannmin>
+        <humsaisonhumide xml:lang="fr"></humsaisonhumide>
+        <humsaisonseche xml:lang="fr"></humsaisonseche>
+        <nombrejrspluiemax xml:lang="fr"></nombrejrspluiemax>
+        <nombrejrspluiemin xml:lang="fr"></nombrejrspluiemin>
+        <pluviometrieannmax xml:lang="fr"></pluviometrieannmax>
+        <pluviometrieannmin xml:lang="fr"></pluviometrieannmin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_soudanienne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_soudanienne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudanaise"/>
+        <Tempmoyann xml:lang="fr"></Tempmoyann>
+        <ampsaisonniere xml:lang="fr"></ampsaisonniere>
+        <dureesaisonmax xml:lang="fr"></dureesaisonmax>
+        <dureesaisonmin xml:lang="fr"></dureesaisonmin>
+        <evaporationannmax xml:lang="fr"></evaporationannmax>
+        <evaporationannmin xml:lang="fr"></evaporationannmin>
+        <humsaisonhumide xml:lang="fr"></humsaisonhumide>
+        <humsaisonseche xml:lang="fr"></humsaisonseche>
+        <nombrejrspluiemax xml:lang="fr"></nombrejrspluiemax>
+        <nombrejrspluiemin xml:lang="fr"></nombrejrspluiemin>
+        <pluviometrieannmax xml:lang="fr"></pluviometrieannmax>
+        <pluviometrieannmin xml:lang="fr"></pluviometrieannmin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_soudano_sahelienne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#zone_soudano_sahelienne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudano_sahelienne"/>
+        <Tempmoyann xml:lang="fr"></Tempmoyann>
+        <ampsaisonniere xml:lang="fr"></ampsaisonniere>
+        <dureesaisonmax xml:lang="fr"></dureesaisonmax>
+        <dureesaisonmin xml:lang="fr"></dureesaisonmin>
+        <evaporationannmax xml:lang="fr"></evaporationannmax>
+        <evaporationannmin xml:lang="fr"></evaporationannmin>
+        <humsaisonhumide xml:lang="fr"></humsaisonhumide>
+        <humsaisonseche xml:lang="fr"></humsaisonseche>
+        <nombrejrspluiemax xml:lang="fr"></nombrejrspluiemax>
+        <nombrejrspluiemin xml:lang="fr"></nombrejrspluiemin>
+        <pluviometrieannmax xml:lang="fr"></pluviometrieannmax>
+        <pluviometrieannmin xml:lang="fr"></pluviometrieannmin>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_sahelienne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudanaise"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#Zone_soudano_sahelienne"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1033"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_1659"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_2409"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_268"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_33934"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_3615"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_568"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_7425"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/utilisateur/ontologies/2022/2/untitled-ontology-10#http://aims.fao.org/aos/agrovoc/c_89"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+

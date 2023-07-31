@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chorobek",
+			"Growingup",
+			"Janatkg",
+			"Ztimur",
+			"Викиней",
+			"Bosogo",
+			"Элдин беги"
+		]
+	},
+	"prefs-vector-enable-vector-1-label": "Эски Векторду колдонуу",
+	"prefs-vector-enable-vector-1-help": "Жакынкы жылдары «Вектор» көрүнүшүн акырындап жаңыртабыз. «Эски Вектор» «Вектордун» эски нускасын (2019-жылдын декабрына карата) көрүүгө мүмкүндүк берет. Жаңыртуулар жөнүндө көбүрөөк билүү үчүн [[mw:Reading/Web/Desktop_Improvements|долбоорубуздун барагына]] өтүңүз.",
+	"vector-opt-out": "Эски көрүнүшкө өтүү",
+	"vector-opt-out-tooltip": "Көрүнүштүн эски нускасына кайтуу үчүн жөндөмөлөрүңүздү өзгөртүңүз (Эски Вектор)",
+	"vector.css": "/* Бул жердеги бардык CSS «Вектор» көрүнүшүнүн колдонуучулары үчүн жүктөлөт */",
+	"vector.js": "/* Бул жердеги бардык JavaScript «Вектор» көрүнүшүнүн колдонуучулары үчүн жүктөлөт */",
+	"vector-action-toggle-sidebar": "Каптал тилкесин көрсөтүү/жашыруу",
+	"vector-action-addsection": "Тема кошуу",
+	"vector-action-delete": "Өчүрүү",
+	"vector-action-move": "Аталышын өзгөртүү",
+	"vector-action-protect": "Коргоо",
+	"vector-action-undelete": "Калыбына келтирүү",
+	"vector-action-unprotect": "Коргоону өзгөртүү",
+	"vector-view-create": "Түзүү",
+	"vector-view-edit": "Оңдоо",
+	"vector-view-history": "Тарыхын кароо",
+	"vector-view-view": "Окуу",
+	"vector-view-viewsource": "Булагын кароо",
+	"vector-jumptonavigation": "Навигацияга өтүү",
+	"vector-jumptosearch": "Издөөгө өтүү",
+	"vector-more-actions": "Көбүрөөк"
+}

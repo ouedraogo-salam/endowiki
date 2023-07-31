@@ -1,0 +1,5 @@
+host: localhost
+path: /endowiki/
+scheme: http
+username: Admin # bot username
+password: Endowiki@245

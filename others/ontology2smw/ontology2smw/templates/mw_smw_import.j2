@@ -1,0 +1,6 @@
+{{ page_info['ontology_ns'] }}|[{{ page_info['ontology_ns'] }} {{ ns_prefix }}]
+{% for resource_tuple in term_dict %}
+ {{ resource_tuple[0] }}|{{ resource_tuple[1] }}
+{%- endfor %}
+
+[[Category:Imported vocabulary]] [[Category:{{ ns_prefix|upper }}]]

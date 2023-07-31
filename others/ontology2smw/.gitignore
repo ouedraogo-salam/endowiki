@@ -1,0 +1,16 @@
+venv
+.idea
+Test Results - pytest_in_test_import_ontology_py.html
+__pycache__
+/tmp
+/logs
+confident2wikidata_mapping.yml
+/notebooks/.ipynb_checkpoints/
+/ontos/
+/build/
+/dist/
+/ontology2smw.egg-info/
+/.tox/
+/vm/.vagrant/
+/notebooks/
+/report.txt

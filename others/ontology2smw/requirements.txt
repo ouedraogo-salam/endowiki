@@ -1,0 +1,7 @@
+requests
+rdflib
+Jinja2
+pyyaml
+mwclient
+flake8
+pytest

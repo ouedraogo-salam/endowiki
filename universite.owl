@@ -1,0 +1,1518 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="file:///./universite2.owl#"
+     xml:base="file:///./universite2.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:univ="http://www.semanticweb.org/ontologies/2021/1/universite#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#appartenir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#appartenir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#avoir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#avoir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#comprendre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#comprendre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#constituer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#constituer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PresidenceUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#contenir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#contenir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#coordonner -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#coordonner">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelPresidence"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#decrire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#decrire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentFormation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#detenir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#detenir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#diriger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#diriger">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#dispenser -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#dispenser">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#disposer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#disposer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#effectuerPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#effectuerPar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#etre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#etre">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#gerer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#gerer">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelEtablissement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#inclure -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#inclure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#posseder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#posseder">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentActualite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#publier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#publier">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#renseignerSur -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#renseignerSur">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentEtablissement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#repartir -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#repartir">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#travailler -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#travailler">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ProjetEquipeLaboratoire"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#visualiserPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#visualiserPar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ImageSiteUniversite"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#NombreEnseignants -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#NombreEnseignants">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#NombreEtudiants -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#NombreEtudiants">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#NombreFilieres -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#NombreFilieres">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#accronymeEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#accronymeEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#anneeDocument -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#anneeDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#auteurActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#auteurActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#contactEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#contactEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#contactEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#contactEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#contacteUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#contacteUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEquipe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEquipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionFormation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionFormation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionPresidence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionPresidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PresidenceUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionProjet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionProjet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#descriptionUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#descriptionUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#emailEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#emailEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#emailEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#emailEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#emailPersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#emailPersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#emailUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#emailUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#fichierDocument -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#fichierDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#gradePersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#gradePersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#historiqueUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#historiqueUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageCouvertureUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageCouvertureUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imagePresidence -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imagePresidence">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PresidenceUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageProjet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageProjet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ProjetEquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#imageSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#imageSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#inituleNiveauEtude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#inituleNiveauEtude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleCategorieActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleCategorieActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleCategorieEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleCategorieEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleDocument -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleFormation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleFormation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intitulePartenaire -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intitulePartenaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#intituleProjet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#intituleProjet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ProjetEquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#lattitudeSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#lattitudeSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#logoEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#logoEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#logoEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#logoEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#logoPartenaire -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#logoPartenaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#logoUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#logoUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#longitudeSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#longitudeSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#missionUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#missionUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#motDuPresident -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#motDuPresident">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelPresidence"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomEcoleDoctorale -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomEcoleDoctorale">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomEquipe -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomEquipe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomEtablissement -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomEtablissement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomLaboratoire -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomLaboratoire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomPersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomPersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomSite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomSite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nomUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nomUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#photoPersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#photoPersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#postePersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#postePersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#prenomPersonnel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#prenomPersonnel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#resumeActualite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#resumeActualite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#visionUniversite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#visionUniversite">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#DocumentActualite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentActualite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#DocumentEtablissement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentEtablissement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#DocumentFormation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentFormation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#DocumentUtile">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ImageSiteUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ImageSiteUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelEtablissement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelEtablissement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelPresidence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelPresidence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#PresidenceUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#PresidenceUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ProjetEquipeLaboratoire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ProjetEquipeLaboratoire">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Statistiques"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Universite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Universite">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite"/>
+        <univ:intituleCategorieActualite>Agriculture et technologie</univ:intituleCategorieActualite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Belem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Belem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#esi"/>
+        <univ:etre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#esi"/>
+        <univ:gradePersonnel>Maitre de Conferences</univ:gradePersonnel>
+        <univ:nomPersonnel>BELEM</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/Belem.png</univ:photoPersonnel>
+        <univ:prenomPersonnel>Mahamadou</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#IA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#IA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieActualiteUniversite"/>
+        <univ:intituleCategorieActualite>Intelligence Artificielle</univ:intituleCategorieActualite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Inssa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Inssa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <univ:appartenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#instituts"/>
+        <univ:accronymeEtablissement>INSSA</univ:accronymeEtablissement>
+        <univ:contactEtablissement>Tél. (226) 20 95 29 90</univ:contactEtablissement>
+        <univ:descriptionEtablissement>INSTITUT SUPERIEUR DES SCIENCES DE LA SANTE</univ:descriptionEtablissement>
+        <univ:emailEtablissement></univ:emailEtablissement>
+        <univ:imageEtablissement></univ:imageEtablissement>
+        <univ:logoEtablissement>images/unb/logoInssa.png</univ:logoEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#Sado -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#Sado">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#laMIA"/>
+        <univ:etre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#uit"/>
+        <univ:gradePersonnel>Professeur Titulaire en Analyse Convexe</univ:gradePersonnel>
+        <univ:nomPersonnel>TRAORE</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/Sado.png</univ:photoPersonnel>
+        <univ:postePersonnel>Professeur</univ:postePersonnel>
+        <univ:prenomPersonnel>Sado</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#actualite1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#actualite1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <univ:inclure rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#IA"/>
+        <univ:auteurActualite>Super User</univ:auteurActualite>
+        <univ:descriptionActualite> Nos universités sont pauvres en ressourcesLes effectifs sont pléthoriquesLes acteurs manquent de motivationInadaptation du système de formation au contexte de compétence et de compétitivitéBesoin de réforme profonde dans l’enseignement supérieur souvent exprimé</univ:descriptionActualite>
+        <univ:imageActualite>images/unb/IA.png</univ:imageActualite>
+        <univ:intituleActualite>Définition du système LMD et modalités d’organisation des enseignements, d’évaluation et de délibération en licence et en master.</univ:intituleActualite>
+        <univ:intituleCategorieActualite>instituts</univ:intituleCategorieActualite>
+        <univ:resumeActualite>Système d’enseignement supérieur anglo-saxon utilisant une formation à trois paliers Licence, Master et Doctorat. Il offre une plus grande flexibilité dans la formation aussi bien aux apprenants qu’aux formateurs. Deux modes de formation sont offerts : une formation académique orientée sur la recherche et une formation appliquée orientée sur la professionnalisation. Le facteur humain, l’utilisation des TICe et la flexibilité du système en font sa principale force.</univ:resumeActualite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#actualite2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#actualite2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <univ:inclure rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#IA"/>
+        <univ:auteurActualite>Super User</univ:auteurActualite>
+        <univ:descriptionActualite></univ:descriptionActualite>
+        <univ:imageActualite>images/unb/ImageIA.png</univ:imageActualite>
+        <univ:intituleActualite>Le REESAO et le LMD, les domaines de formations</univ:intituleActualite>
+        <univ:intituleCategorieActualite>instituts</univ:intituleCategorieActualite>
+        <univ:resumeActualite>Huit domaines existent dans le REESAO</univ:resumeActualite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#actualite3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#actualite3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ActualiteUniversite"/>
+        <univ:inclure rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Agriculture"/>
+        <univ:auteurActualite></univ:auteurActualite>
+        <univ:descriptionActualite>&quot;&quot;</univ:descriptionActualite>
+        <univ:imageActualite>unb/static/images/unb/agriculture.png</univ:imageActualite>
+        <univ:intituleActualite>Seminaire sur l&apos;impact de la technologie dans l&apos;agriculture</univ:intituleActualite>
+        <univ:resumeActualite></univ:resumeActualite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#banqueMondiale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#banqueMondiale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+        <univ:intitulePartenaire>Banque Mondiale</univ:intitulePartenaire>
+        <univ:logoPartenaire>images/unb/logoBanqueMondiale.png</univ:logoPartenaire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#cfr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#cfr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <univ:nomSite>Centre de calcul</univ:nomSite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#corris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#corris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+        <univ:intitulePartenaire>Corris Banque</univ:intitulePartenaire>
+        <univ:logoPartenaire>images/unb/logoCorris.png</univ:logoPartenaire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#cs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#cs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <univ:effectuerPar rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#master"/>
+        <univ:descriptionFormation></univ:descriptionFormation>
+        <univ:intituleFormation>Master option Cyber sécurité</univ:intituleFormation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ecole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ecole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement"/>
+        <univ:intituleCategorieEtablissement>Ecole</univ:intituleCategorieEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lacer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lacer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <univ:comprendre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#milogo"/>
+        <univ:nomEquipe>Equipe 1 de LACER</univ:nomEquipe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lamdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lamdi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <univ:comprendre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#tapsoba"/>
+        <univ:nomEquipe>Equipe 1 LAMDI</univ:nomEquipe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lamia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lamia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EquipeLaboratoire"/>
+        <univ:comprendre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Sado"/>
+        <univ:nomEquipe>Equipe 1  de LAMIA</univ:nomEquipe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#esi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#esi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <univ:appartenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ecole"/>
+        <univ:accronymeEtablissement>ESI</univ:accronymeEtablissement>
+        <univ:descriptionEtablissement>L’Ecole Supérieure d’Informatique (ESI) fait partie des huit (08) établissements d’enseignement et de recherche de l’Université Nazi BONI (Ex Université Polytechnique de Bobo Dioulasso). Elle est née en 1991 du besoin exprimé par le Premier Plan Directeur Informatique (1991-1995) « édification de compétences nationales par la formation de spécialistes (analystes et ingénieurs) concepteurs de système d’information ».                                    D’abord implantée à Ouagadougou, l’ESI a ensuite été installée au sein de l’Université Polytechnique de Bobo-Dioulasso en septembre 1995. La première promotion de diplômes est sortie en juin 1993. On retrouve désormais des anciens élèves de l’ESI dans tous les secteurs de la vie économique. Autant les banques que les entreprises industrielles ou les prestataires de services informatiques, aussi que les mairies, ONG et administrations diverses.</univ:descriptionEtablissement>
+        <univ:emailEtablissement>infos@esi-upb.bf</univ:emailEtablissement>
+        <univ:intituleCategorieEtablissement>ecole</univ:intituleCategorieEtablissement>
+        <univ:logoEtablissement>images/unb/logoEsi.png</univ:logoEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#instituts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#instituts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement"/>
+        <univ:intituleCategorieEtablissement>instituts</univ:intituleCategorieEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#laCER -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#laCER">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lacer"/>
+        <univ:nomLaboratoire>Laboratoire de Chimie et d&apos;Energies Renouvelables(laCER)</univ:nomLaboratoire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#laMIA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#laMIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#laMIA"/>
+        <univ:nomLaboratoire>Laboratoire de mathematiques, d&apos;informatique et applications(LaMIA)</univ:nomLaboratoire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#lamdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#lamdi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#LaboratoireEcoleDoctorale"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#equipe1Lamdi"/>
+        <univ:nomLaboratoire>Laboratoire d&apos;Algebre, des Mathematiques Discrètes et Informatiques (LAMDI)</univ:nomLaboratoire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#licence -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#licence">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude"/>
+        <univ:inituleNiveauEtude>Licence</univ:inituleNiveauEtude>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#master -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#master">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#NiveauEtude"/>
+        <univ:inituleNiveauEtude>Master</univ:inituleNiveauEtude>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#md -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#md">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <univ:descriptionFormation></univ:descriptionFormation>
+        <univ:intituleFormation>Master option Sciences des données</univ:intituleFormation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#milogo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#milogo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#laCER"/>
+        <univ:etre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#uit"/>
+        <univ:gradePersonnel>Professeur Titulaire en Chimie des Matériaux</univ:gradePersonnel>
+        <univ:nomPersonnel>MILOGO</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/millogo.png</univ:photoPersonnel>
+        <univ:postePersonnel>Professeur</univ:postePersonnel>
+        <univ:prenomPersonnel>Younoussa</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ms -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ms">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <univ:effectuerPar rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#master"/>
+        <univ:descriptionFormation></univ:descriptionFormation>
+        <univ:intituleFormation>Master option système d&apos;aide à la prise de decision</univ:intituleFormation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#nasso -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#nasso">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <univ:nomSite>Site de NASSO</univ:nomSite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#orange -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#orange">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PartenaireUniversite"/>
+        <univ:intitulePartenaire>Orange Burkina</univ:intitulePartenaire>
+        <univ:logoPartenaire>images/unb/logoOrange.png</univ:logoPartenaire>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#president -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#president">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#PersonnelPresidence"/>
+        <univ:coordonner rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#universite"/>
+        <univ:gradePersonnel>Professeur certifié</univ:gradePersonnel>
+        <univ:motDuPresident>L’UNB, établissement public à caractère scientifique, culturel et technique (EPSCT), est un acteur majeur de l’enseignement et de la recherche universitaire, classée 2ème parmi les Universités publiques au Burkina Faso. Créée le 19 Septembre 1995, avec pour mission principale l’enseignement et la formation, elle propose de nos jours plus d’une centaine d’offres de formation en phase avec le contexte socio-économique du Burkina Faso. En effet, l’UNB compte plus de soixante-treize filières professionnalisantes. Elle est résolument tournée vers des filières innovantes, en offrant de plus en plus aux diplômés des opportunités de création d’entreprises, d’auto-emploi et d’emploi, et ce à travers son offre de formation et son incubateur.
+
+Si l’Université Nazi BONI a une pleine conscience de ses missions, elle sait aussi que pour améliorer ses performances sur le plan international, de grands défis l’attendent.
+
+Pour relever ces défis, elle s’appuiera tout d’abord sur la contribution des tous premiers acteurs de la vie universitaire (enseignants-chercheurs, personnel ATOS et étudiants) qui constituent les ressources humaines de qualité de ses établissements, Centres universitaires, Ecoles doctorales et Centre d’excellence. Aussi devra-t-elle développer et diversifier le partenariat avec les institutions de formation et de recherche, les entreprises et unités industrielles de la région, et les organismes de financement.
+
+Ce site est donc est une vitrine de notre mission d’enseignement, de recherche et de la gouvernance administrative. Il constitue un véritable lien de communication entre l’institution et ses partenaires. Il exprime notre volonté de faire de la communication un lévrier essentiel de notre partenariat au moyen des technologies de l’information et de la communication, vecteurs d’une efficience à tous les niveaux.
+
+Au-delà̀ de ce site Internet, l’UNB veillera aussi à mettre en place d’autres outils d’information au profit de sa communauté et de ses partenaires socioéconomiques.
+
+Notre vision est celle que l’UNB demeure une Université forte, compétitive, excellente, et innovante dans le monde en intégrant dans nos comportements quotidiens, les valeurs d’intégrité, de sacrifice, de dialogue, de transparence, de partage, de quête permanente de compétences et d’innovations.
+
+Merci à tous pour votre accompagnement.
+
+Ensemble nous réussirons !
+
+Bonne navigation sur notre site !
+
+ 
+
+Professeur Hassan Bismarck NACRO, Président de l’UNB.</univ:motDuPresident>
+        <univ:nomPersonnel>NACRO</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/President.png</univ:photoPersonnel>
+        <univ:prenomPersonnel>Hassan Bismarck</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#rs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#rs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <univ:effectuerPar rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#licence"/>
+        <univ:descriptionFormation></univ:descriptionFormation>
+        <univ:intituleFormation>Ingenierie des reseaux et systèmes</univ:intituleFormation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#si -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#si">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#FormationEtablissement"/>
+        <univ:effectuerPar rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#licence"/>
+        <univ:descriptionFormation></univ:descriptionFormation>
+        <univ:intituleFormation>Ingenierie des systèmes d&apos;informations</univ:intituleFormation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#site22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#site22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#SiteUniversite"/>
+        <univ:nomSite>Site du 22</univ:nomSite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#stat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#stat">
+        <univ:NombreEnseignants rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</univ:NombreEnseignants>
+        <univ:NombreEtudiants rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">800000</univ:NombreEtudiants>
+        <univ:NombreFilieres rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78</univ:NombreFilieres>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#tapsoba -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#tapsoba">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <univ:diriger rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#lamdi"/>
+        <univ:etre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#esi"/>
+        <univ:gradePersonnel>Professeur Titulaire en Mathématiques discrètes</univ:gradePersonnel>
+        <univ:nomPersonnel>TAPSOBA</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/tabsoba.png</univ:photoPersonnel>
+        <univ:postePersonnel>Professeur</univ:postePersonnel>
+        <univ:prenomPersonnel>Théodore Marie Yves</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ufr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ufr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#CategorieEtablissement"/>
+        <univ:intituleCategorieEtablissement>UFR</univ:intituleCategorieEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#uit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#uit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EtablissementUniversite"/>
+        <univ:appartenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#ufr"/>
+        <univ:accronymeEtablissement>UIT</univ:accronymeEtablissement>
+        <univ:descriptionEtablissement>Les bacheliers entrent dans cet institut par voie de concours. Les différentes filières sont organisées en DUT (Diplôme Universitaire de Technologie), en licence professionnelle.</univ:descriptionEtablissement>
+        <univ:emailEtablissement></univ:emailEtablissement>
+        <univ:intituleCategorieEtablissement>ufr</univ:intituleCategorieEtablissement>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#universite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#universite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Universite"/>
+        <univ:avoir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#banqueMondiale"/>
+        <univ:avoir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#corris"/>
+        <univ:avoir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#orange"/>
+        <univ:constituer rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#Inssa"/>
+        <univ:constituer rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#esi"/>
+        <univ:constituer rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#uit"/>
+        <univ:detenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#stat"/>
+        <univ:repartir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#cfr"/>
+        <univ:repartir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#nasso"/>
+        <univ:repartir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#site22"/>
+        <univ:contacteUniversite>+226 20 98 06 35</univ:contacteUniversite>
+        <univ:descriptionUniversite>L’Université Polytechnique de Bobo-Dioulasso comprend une école et quatre instituts placés chacun sous la responsabilité d’un directeur assisté d’un directeur adjoint. L’école et les instituts sont des établissements d’enseignement et de recherche ayant en leur sein plusieurs départements ouvrant sur des spécialités diverses.
+
+Ecole Supérieure d’Informatique (ESI)
+Institut Universitaire de Technologie (IUT)
+Institut du Développement Rural (IDR)
+Institut des Sciences de la Nature et de la Vie (ISNV)
+Institut des Sciences Exactes et Appliquées (ISEA)
+Institut Supérieur des Sciences de la Santé (INSSA)
+
+
+L’Université Polytechnique de Bobo-Dioulasso (UPB) est située dans la région de l’Ouest du Burkina-Faso, plus précisément dans le village de Nasso à une quinzaine de kilomètres de Bobo-Dioulasso, seconde ville du pays. Bobo-Dioulasso, ou ville de Sya du nom de son fondateur, est une région touristique qui accueille de nombreux visiteurs venus découvrir la mare aux hippopotames de Bama classée patrimoine touristique mondial, la mosquée de Dioulassoba, le village de Koro, et la Guinguette proche du site de l’UPB. La région est accessible par voie aérienne, ferroviaire et terrestre.
+
+Création
+
+19 septembre 1995, le décret n° 95-340/PRES/MESSRS crée le Centre Universitaire Polytechnique de Bobo-Dioulasso (CUPB).
+16 mai 1997, adoption du décret n° 97-254/PRES/PM/MESSRS portant transformation du CUPB en Université Polytechnique de Bobo-Dioulasso (UPB). La création de l’UPB répond à une politique de décentralisation de l’enseignement supérieur au Burkina Faso.
+
+Statut et missions
+
+L’Université Polytechnique de Bobo-Dioulasso est un Etablissement public de l’Etat à caractère scientifique, culturel et technique (EPSCT), chargé d’enseignement supérieur et de recherche scientifique. Ce statut lui confère une autonomie scientifique, administrative et financière. C’est une université nationale qui a pour mission l’élaboration et la transmission de la connaissance pour la formation des hommes et des femmes afin de répondre aux besoins de la Nation. Cette mission s’entend dans le cadre de la politique de décentralisation de l’enseignement supérieur du gouvernement burkinabé et de la conquête du marché de l’emploi, la formation des cadres dans les filières professionnalisantes pour plus de productivité dans les secteurs socio-économiques et culturels. Pour y parvenir l’UPB s’assigne les objectifs suivants :
+
+former des cadres dans tous les domaines en général et dans les filières professionnalisantes en particulier ;
+conduire des activités de recherche scientifique et en vulgariser les résultats ;
+élever le niveau technique, scientifique et culturel des étudiants pour une ouverture sur le marché de l’emploi et les secteurs de production ;
+délivrer des titres et diplômes ;
+valoriser les compétences dans tous les secteurs d’activité du pays.</univ:descriptionUniversite>
+        <univ:historiqueUniversite>C&apos;est en septembre 1995 que le Centre universitaire polytechnique de Bobo-Dioulasso (CUPB) voit le jour (décret n° 95-340/PRES/MESSRS).
+
+Pour répondre à une politique de décentralisation de l&apos;enseignement supérieur au Burkina Faso, le CUPB est transformé en université polytechnique de Bobo-Dioulasso (UPB) le 16 mai 1997 (décret n° 97-254/PRES/PM/MESSRS).
+
+Depuis le 29 juillet 2002, l&apos;UPB est un établissement public de l’État à caractère scientifique, culturel et technique (EPSCT) chargé d’enseignement supérieur et de recherche scientifique (décret n°2002-288/PRES/PM/ MESSRS/MFB).
+
+En 2017, elle est renommée Université Nazi BONI, en l&apos;honneur de Nazi Bon.</univ:historiqueUniversite>
+        <univ:imageCouvertureUniversite>images/unb/couverture.png</univ:imageCouvertureUniversite>
+        <univ:logoUniversite>images/unb/logoUniversite.png</univ:logoUniversite>
+        <univ:missionUniversite>C’est une université nationale qui a pour mission l&apos;élaboration et la transmission de la connaissance pour la formation des hommes et des femmes afin de répondre aux besoins de la Nation.</univ:missionUniversite>
+        <univ:nomUniversite>UNIVERSITE NAZI BONI</univ:nomUniversite>
+        <univ:visionUniversite>Devenir et une université forte, competitive, excellente et innovatrice dans le monde</univ:visionUniversite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#yelemou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#yelemou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EnseignantUniversite"/>
+        <univ:etre rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#esi"/>
+        <univ:emailPersonnel>tyelemou@univ-bobo.bf</univ:emailPersonnel>
+        <univ:gradePersonnel>Professeur Certifié</univ:gradePersonnel>
+        <univ:nomPersonnel>YELEMOU</univ:nomPersonnel>
+        <univ:photoPersonnel>images/unb/Yelemou.png</univ:photoPersonnel>
+        <univ:prenomPersonnel>tyelemou</univ:prenomPersonnel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ED/SNA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ED/SNA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <univ:contactEcoleDoctorale></univ:contactEcoleDoctorale>
+        <univ:descriptionEcoleDoctorale></univ:descriptionEcoleDoctorale>
+        <univ:emailEcoleDoctorale></univ:emailEcoleDoctorale>
+        <univ:imageEcoleDoctorale></univ:imageEcoleDoctorale>
+        <univ:logoEcoleDoctorale></univ:logoEcoleDoctorale>
+        <univ:nomEcoleDoctorale>Ecole Doctorale des Sciences Naturelles et Agronomie (ED/SNA)</univ:nomEcoleDoctorale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ED/SS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ED/SS">
+        <univ:nomEcoleDoctorale>ECOLES DOCTORALES SCIENCES DE LA SANTE (EDSS)</univ:nomEcoleDoctorale>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2021/1/universite#ED/ST -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/2021/1/universite#ED/ST">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#EcoleDoctoraleUniversite"/>
+        <univ:contenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#laCER"/>
+        <univ:contenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#laMIA"/>
+        <univ:contenir rdf:resource="http://www.semanticweb.org/ontologies/2021/1/universite#lamdi"/>
+        <univ:descriptionEcoleDoctorale>L’ED/ST assure des formations doctorales dans plusieurs domaines des mathématiques, de la physique, de la chimie et de l’informatique à travers quatre laboratoires de recherche.</univ:descriptionEcoleDoctorale>
+        <univ:nomEcoleDoctorale>Ecole Doctorale des Sciences et Techniques</univ:nomEcoleDoctorale>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
