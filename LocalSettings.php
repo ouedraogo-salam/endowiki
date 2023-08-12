@@ -168,6 +168,7 @@ wfLoadExtension( 'SemanticMediaWiki' );
 enableSemantics( 'localhost' );
 wfLoadExtension( 'Maps' );
 wfLoadExtension( 'InterwikiExtracts' );
+wfLoadExtension( 'ExternalData' );
 
 $smwgShowFactbox = SMW_FACTBOX_NONEMPTY;
 require_once "$IP/extensions/Rdfio/RDFIO.php";
